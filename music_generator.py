@@ -9,7 +9,7 @@ class GenMusic:
         pass
     
     @classmethod
-    def INPUT_TYPES(cls):
+    def INPUT_TYPES(s):
         """
             Return a dictionary which contains config for all input fields.
             Some types (string): "MODEL", "VAE", "CLIP", "CONDITIONING", "LATENT", "IMAGE", "INT", "STRING", "FLOAT".
@@ -51,7 +51,7 @@ class GenMusic:
 
         }
 
-    RETURN_TYPES = ("AUDIO", "String",)
+    RETURN_TYPES = ("AUDIO", "STRING",)
     RETURN_NAMES = ("AUDIO", "FILENAME", )
 
     FUNCTION = "process"
