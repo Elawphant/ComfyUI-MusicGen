@@ -1,5 +1,6 @@
 -e git+https://github.com/facebookresearch/audiocraft.git
 torch
+xformers
 ffmpeg
 torchaudio
 audiocraft

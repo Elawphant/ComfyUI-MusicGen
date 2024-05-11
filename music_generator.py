@@ -4,6 +4,9 @@ from audiocraft.data.audio import audio_write
 
 
 class GenMusic:
+
+    def __init__(self) -> None:
+        pass
     
     @classmethod
     def INPUT_TYPES(cls):
